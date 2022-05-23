@@ -26,3 +26,8 @@ const arrayDiff = (arrayA, arrayB) => {
     }
  }
  console.log(arrayDiff([1,2,2,2,3],[2]));
+
+ //another solution
+ function array_diff(a, b) {
+    return a.filter(e => !b.includes(e));
+  }
